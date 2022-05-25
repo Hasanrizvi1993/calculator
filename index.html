@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="App">
+    <h1>Welcome to the Calculator</h1>
+
+    <div id="addition">
+        <h2>Addition Number 1</h2>
+        <input type="text" id="number1" placeholder="Enter Number"></input>
+        <br>
+        <h2>Addition Number 2</h2>
+        <input type="text" id="number2" placeholder="Enter Number"></input>
+        <br>
+        <input type="text" id="Add"></input>
+        <br>
+        <br>
+        <input type="button" value="Add" onclick="submit()"></input>
+    </div>
+    <br>
+    <div id="subtraction">
+        <hr>
+        <h2>Subtract Number 1</h2>
+        <input type="text" id="subnum1" placeholder="Enter Number"></input>
+        <h2>Subtract Number 2</h2>
+        <input type="text" id="subnum2" placeholder="Enter Number"></input>
+        <br>
+        <input type="text" id="Subtract"></input>
+        <br>
+        <br>
+        <input type="button" value="Subtract" onclick="subtract()"></input>
+    </div>
+    <div id="division">
+        <hr>
+        <h2>Division Number 1</h2>
+        <input type="text" id="divnum1" placeholder="Enter Number"></input>
+        <h2>Division Number 2</h2>
+        <input type="text" id="divnum2" placeholder="Enter Number"></input>
+        <br>
+        <input type="text" id="Division"></input>
+        <br>
+        <br>
+        <input type="button" value="Divide" onclick="division()"></input>
+    </div>
+    <div id="multiply">
+        <hr>
+        <h2>Multiply Number 1</h2>
+        <input type="text" id="multnum1" placeholder="Enter Number"></input>
+        <h2>Multiply Number 2</h2>
+        <input type="text" id="multnum2" placeholder="Enter Number"></input>
+        <br>
+        <input type="text" id="Multiply"></input>
+        <br>
+        <br>
+        <input type="button" value="Multiply" onclick="multiply()"></input>
+    </div>
+    </div>
+
+</body>
+<script src = "calculator.js"></script>
+</html>
